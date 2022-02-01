@@ -19,5 +19,10 @@ This is a node.js Server that captures packets flowing through the network on co
  - DELETE #/api/capture/endCapture
  > Terminate the Running Packet-Capture Session ( If Any )
  
- 
- *_More Detailed Description of the REST-API available under the 'openapi.json' file._*
+ *_More Detailed Description of the REST-API available under the { 'openapi.json' } file._*
+
+
+ **To Setup the MySql 'pcap' Database:**
+ - *Sign into the 'localhost@root' mySQL account and run the file { 'initDB.sql' }*
+ > This Initializes a database 'pcap' with the appropriate schema for the node.js server to function properly.
+ - *Replace '<PASSWORD>' in the .env environment file to your own 'localhost@root' password.*
